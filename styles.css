@@ -1,0 +1,47 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.square {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.square::after {
+    content: '';
+    display: block;
+    
+}
+
+.square.X {
+    background-color: #0d6efd;
+}
+
+.square.O {
+    background-color: #dc3545;
+}
+
+.btn-group .btn {
+    width: 50%;
+    font-weight: bold;
+}
+
+#xTurn.active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+#oTurn.active {
+    background-color: #dc3545;
+    color: #fff;
+}
