@@ -16,7 +16,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://https://github.com/Mujeeburrehman4596/Tic_Toe_Game
 Open the index.html file in your browser.
 Usage
 Open the website in your browser to start the game.
